@@ -21,7 +21,13 @@ export default new Router({
     {
       path: '/main',
       name: 'Main',
-      component: Main
+      component: Main,
+      children: [
+        {
+          path: "b1",
+          
+        }
+      ]
     }
   ]
 })

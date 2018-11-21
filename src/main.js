@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import store from './store'
 // import Toast from './components/toast.js';
 import VueLoading from './components/loading'
 import VueModel from './components/model'
@@ -20,6 +21,7 @@ Vue.use(VueModel, {
 new Vue({
 	el: '#app',
 	router,
+	store,
 	template: '<App/>',
 	components: {
 		App
